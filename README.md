@@ -1,6 +1,10 @@
+<div align="center" width="100%">
+  <img src="https://github.com/dhirajgagrai/goti/assets/22605432/7c6a01f7-e296-4eb0-8f7b-a3fa210d18c8" width="500" />
+</div>
+
 # goti
 
-This app was created as a part of Project Aegis. It will be added to the Project Aegis repo when it becomes WASM compatible.
+This was created as part of Project Aegis. It will be included in the Project Aegis repository when WASM compatibility is added.
 
 ## Usage
 
@@ -17,7 +21,7 @@ chmod a+x goti_aarch64-apple-darwin
 
 ### Build from source
 
-Install [Rust](https://www.rust-lang.org/tools/install) and clone this repo.
+Install [Rust](https://www.rust-lang.org/tools/install) and build using Cargo.
 ```bash
 git clone https://github.com/dhirajgagrai/goti.git
 cd goti
