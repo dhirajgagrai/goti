@@ -1,6 +1,6 @@
 # goti
 
-This app was created as a part of Project Aegis. It will be added the the Project Aegis repo when it becomes WASM compatible.
+This app was created as a part of Project Aegis. It will be added to the Project Aegis repo when it becomes WASM compatible.
 
 ## Usage
 
