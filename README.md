@@ -1,5 +1,5 @@
 <div align="center" width="100%">
-  <img src="https://github.com/dhirajgagrai/goti/assets/22605432/7c6a01f7-e296-4eb0-8f7b-a3fa210d18c8" width="500" />
+  <img src="https://github.com/dhirajgagrai/goti/assets/22605432/53ab63fc-66ba-4e18-9159-f77025e360ce" width="480" height="352" />
 </div>
 
 # goti
