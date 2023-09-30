@@ -1,0 +1,14 @@
+version: "1.0"
+services:
+  windows_cross_compile:
+    build:
+      context: .
+      dockerfile: ./docker/windows/Dockerfile
+    volumes:
+      - .:/goti
+  linux_cross_compile:
+    build:
+      context: .
+      dockerfile: ./docker/linux/Dockerfile
+    volumes:
+      - .:/goti
