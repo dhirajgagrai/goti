@@ -30,8 +30,8 @@ cargo build --release
 cargo run --release
 ```
 
-## Cross-compilation
-Use the Docker Compose configuration to build binaries for x86_64-pc-windows-gnu and x86_64-unknown-linux-gnu.
+### Cross-compilation
+Use the Docker Compose configuration to cross-compile for different platforms.
 ```bash
 # For windows
 docker-compose up windows_cross_compile
@@ -40,4 +40,4 @@ docker-compose up windows_cross_compile
 docker-compose up linux_cross_compile
 ```
 
-Executables will be generated under target/<architecture>/release.
+Executables will be generated under target/\<architecture\>/release directory.
