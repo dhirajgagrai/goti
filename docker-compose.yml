@@ -1,14 +1,14 @@
 version: "1.0"
 services:
-  windows_cross_compile:
+  x86_64-pc-windows-gnu:
     build:
       context: .
-      dockerfile: ./docker/windows/Dockerfile
+      dockerfile: ./docker/x86_64-pc-windows-gnu/Dockerfile
     volumes:
       - .:/goti
-  linux_cross_compile:
+  x86_64-unknown-linux-gnu:
     build:
       context: .
-      dockerfile: ./docker/linux/Dockerfile
+      dockerfile: ./docker/x86_64-unknown-linux-gnu/Dockerfile
     volumes:
       - .:/goti

@@ -32,12 +32,13 @@ cargo run --release
 
 ### Cross-compilation
 Use the Docker Compose configuration to cross-compile for different platforms.
+Currently, Docker images are available for x86_64 Windows and x86_64 Linux architectures.
 ```bash
-# For windows
-docker-compose up windows_cross_compile
+# For x86_64-pc-windows-gnu
+docker-compose up x86_64-pc-windows-gnu
 
-# For linux
-docker-compose up linux_cross_compile
+# For x86_64-unknown-linux-gnu
+docker-compose up x86_64-unknown-linux-gnu
 ```
 
 Executables will be generated under target/\<architecture\>/release directory.
